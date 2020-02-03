@@ -14,7 +14,7 @@ function New-bdsEventLog {
 	The event log - 'Application', 'System', or one of your own choosing
 
 	.EXAMPLE
-	New-bdsEventLot -AppName 'MyApp' -EventLog 'Application'
+	New-bdsEventLog -AppName 'MyApp' -EventLog 'Application'
 	#>
 	[cmdletbinding()]
 	param (
